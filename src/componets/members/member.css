@@ -1,0 +1,85 @@
+.Member-wrapper{
+    padding: 0 7rem 0 7rem;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 5rem;
+    /*transform: translate(-50%,-50%);*/
+    flex-direction: column;
+    gap: 2rem;
+}
+.Member-heading{/*staff*/
+    align-self: center;
+    font-weight: bold;
+    position: relative;
+    transform: translate(15%,9%);
+}
+.Member-heading>*{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.Name-member{
+    color: black;
+    text-transform: uppercase;
+}
+.type-of-work{
+    color: black;
+    text-decoration: underline;
+}
+.tit{
+    color: darkgoldenrod;
+    align-items: center;
+    
+    position: relative;
+    
+
+
+}
+.t-blur1{
+    left: 3rem;
+    top: 6rem;
+}
+.t-blur2{
+    top: 5rem;
+    left: 1rem;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+    width: 50rem;
+    height: 12rem;
+    background: rgba(255, 255, 255, .26) ;
+    border: 0.5px solid black;
+    box-shadow: rgba(3, 102, 214, 0.3);
+    border-radius: 20px;
+}
+.test>img{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+.test>span{
+    color: black;
+    
+}
+/*slider*/
+.Member-wrapper .swiper{
+    width: 108.9%;
+    height: 52%;
+
+
+}
+p{
+    position: relative;
+    transform: translate(1%,-70%);
+    text-decoration: underline;
+}
+.siwspan{
+    top:5px;
+}

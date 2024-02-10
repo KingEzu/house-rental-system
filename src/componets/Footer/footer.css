@@ -1,0 +1,15 @@
+.footer{
+   
+    background: #000;
+    color: aliceblue;
+    width: 200%;
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}

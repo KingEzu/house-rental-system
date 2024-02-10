@@ -1,0 +1,11 @@
+:root{
+    --yellow :#f5c32c;
+    --lemon : #c4f656;
+}
+
+.App{
+    
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+
+}
