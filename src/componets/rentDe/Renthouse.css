@@ -1,0 +1,56 @@
+.rent-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.Re-card{
+    margin: 1rem;
+    width: 20%;
+    text-align: center;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+    height: 210px;
+}
+.Re-img{
+    height: 210px;
+    position: relative;
+    border-radius: 7px;
+}
+.Re-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+.heart {
+    color: red;
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+    right: 8%;
+}
+.favorite {
+    color: gold;
+}
+.content-describe{
+    
+    display:flex;
+    justify-content: space-between;
+}
+.NameHouse{
+    position: relative;
+    top: -40px;
+    color: #000;
+    left: 5%;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.NameHouse:hover{
+    color: #000;
+    transform: scale(1.08);
+    text-decoration: underline;
+    
+}
