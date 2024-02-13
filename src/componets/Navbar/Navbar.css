@@ -1,0 +1,90 @@
+
+
+.n-wrapper{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.n-left{
+    flex: 0.9;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+   
+}
+.n-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.n-right{
+    
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.n-list{
+    flex: 10;
+}
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+}
+.n-list>ul>li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: darkgoldenrod;
+    display: block;
+    margin: auto;
+    
+    transition: 0.5s;
+}
+.n-list>ul>li:hover::after{
+    
+    width: 100%;
+}
+.n-list>ul>li:hover{
+    cursor: pointer;
+
+} 
+.button2{
+    text-decoration: none;
+    font-size: 500;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.button{
+   
+    border: none;
+    background-color: black;
+   
+    border-radius: 34px;
+    padding: 15px 40px 15px 40px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-left: 5%; 
+
+}
+.button:hover{
+    opacity: 90%;
+    cursor: pointer;
+ 
+    
+}
