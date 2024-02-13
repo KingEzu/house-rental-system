@@ -6,7 +6,7 @@ const Hosearch = () =>{
     return(
         <div class="container">
         <div class="main-container">
-          <h1 className="title">The #1 site professionals trust</h1>
+          <h1 className="title">The #1 </h1>
          
           <input type="text" className="search-bar" placeholder="Search...."/>
       </div>
