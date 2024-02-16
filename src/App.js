@@ -11,6 +11,7 @@ import Contact from './routes/contact';
 import Navbar from './componets/Navbar/Navbar';
 //import Describe from './componets/describe/Describe';
 import Form from './componets/form/Form';
+import BackToTopButton from './componets/BackToTop/BackToTopButton';
 function App() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
@@ -29,7 +30,7 @@ function App() {
         <Route path="/contact" element={<Contact/>}/>
 
       </Routes> 
-    
+      <BackToTopButton/>
     </div>
   );
 }
